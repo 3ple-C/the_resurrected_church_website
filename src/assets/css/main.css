@@ -1,0 +1,68 @@
+
+/* header1 & welcome component */
+.mobile{
+    display: none;
+}
+
+.welcome{
+    padding-top: 18px;
+}
+
+/* join component */
+
+.joinSectionImg{
+    background: linear-gradient(45deg, #01385FCC,#01385FCC
+    ), url(../images/hands-young-people-different-races-joined-together-52844507-transformed.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* header2 component */
+.header2{
+    background: linear-gradient(180deg, rgba(1, 56, 95, 0.39) 0%, rgba(1, 56, 95, 0.61) 100%), url(../images/Rectangle\ 6637.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* footer section */
+
+@import url("https://fonts.cdnfonts.com/css/leckerli-one");
+
+.logo_text {
+  font-family: "Leckerli One", sans-serif;
+}
+
+@media only screen and (min-width:280px) and (max-width:540px) {
+    /* header1 & welcome component */
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    /* join component */
+
+    .joinSection>div>div>a{
+        margin: 20px auto 0px;
+    }
+
+  /* connect component mobile */
+
+  .connect_img>img {
+    width: 12% !important;
+  }
+
+  /* footer component mobile */
+  .subscribe {
+    width: 90%;
+  }
+
+  ul>li>a,
+  section>div>p,
+  footer>div>p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
