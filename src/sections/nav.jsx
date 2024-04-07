@@ -24,12 +24,12 @@ function Navbar() {
     
     return (
 
-        <div className='lg:fixed w-full z-10'>
+        <div className='lg:fixed w-full md:z-10'>
             <nav className={`${styles.navbar} ' py-3 xl:px-24 lg:px-16 md:px-12 sm:px-10 ' `}  >
                 {/* logo */}
 
                 <Link to='/' className={`${styles.logo}`}>
-                    <div className=' w-'>
+                    <div className=''>
                         <img src={logo} alt='logo' className='w-[50%] object-contain md:w-[100%]' />
                     </div>
                 </Link>

@@ -1,7 +1,7 @@
-
+// stylesheet
 import '../assets/css/main.css'
 
-
+// Images
 import HeaderImg from '../assets/images/Frame 1627.png';
 import HeaderImg2 from '../assets/images/Frame 1699 (3).png';
 import EmailIcon from '../assets/images/Frame 132.png';
@@ -12,7 +12,6 @@ import CallIcon from '../assets/images/Frame 130.png';
 
 // components
 import Contacts from '../components/contactItems';
-import Button from "../components/rtcBtn";
 import { Input } from '../components/input';
 import { Textarea } from "../components/input";
 import Navbar from "../sections/nav";
@@ -37,7 +36,7 @@ const Contact = () => {
                 <div className='relative xl:w-[60%] md:w-[75%] md:mt-[1.85rem]' >
                     <div id='border-control'></div>
 
-                    <div className="bg-white  p-8 pt-4 form-container space-y-12 lg:space-y-10 md:space-y-7 md:shadow-xl" id='contact' >
+                    <div className="bg-white  px-4 pt-4 form-container space-y-12 lg:space-y-10 md:space-y-7 md:shadow-xl" id='contact' >
                         <FormHeader header="Send us a message" subHeader="Can’t find what you’re looking for? Need help? Feel free by sending us a message." className='pt-0' />
 
                         <div className='w-full md:w-[50%] flex flex-col gap-12' id='contacts2'>
