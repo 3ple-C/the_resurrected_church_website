@@ -18,14 +18,15 @@ import Navbar from "../sections/nav";
 import Header1 from "../sections/header1";
 import Footer from '../sections/footer';
 import FormHeader from '../components/formHeader';
+import Button from '../components/rtcBtn';
 
 const Contact = () => {
     return (
-        <body>
+        <div>
             <Navbar />
             <Header1 src={HeaderImg} src2={HeaderImg2} />
 
-            <section className='flex xl:px-28    lg:pt-32 lg:px-16 '  >
+            <section className='flex xl:px-28    lg:pt-32 lg:px-10 '  >
                 <div className='w-[50%] flex flex-col gap-12' id='contacts'>
                     <Contacts source={EmailIcon} name="Email Address" contacts="Info@theresurrectedchurchng.org" />
                     <Contacts source={Whatsapp} name="Whatsapp" contacts="09139107522" />
@@ -33,20 +34,20 @@ const Contact = () => {
                     <Contacts source={CallIcon} name="Phone Number" contacts="09139107522" />
                 </div>
 
-                <div className='relative xl:w-[60%] md:w-[75%] md:mt-[1.85rem]' >
+                <div className=' md:relative xl:w-[60%] md:w-[75%] md:mt-[1.85rem] ' >
                     <div id='border-control'></div>
 
-                    <div className="bg-white  px-4 pt-4 form-container space-y-12 lg:space-y-10 md:space-y-7 md:shadow-xl" id='contact' >
+                    <div className="bg-white px-4 pt-4 form-container space-y-12 lg:space-y-10 md:space-y-7 md:shadow-xl" id='contact' >
                         <FormHeader header="Send us a message" subHeader="Can’t find what you’re looking for? Need help? Feel free by sending us a message." className='pt-0' />
 
-                        <div className='w-full md:w-[50%] flex flex-col gap-12' id='contacts2'>
+                        <div className=' md:w-[50%] flex flex-col gap-12' id='contacts2'>
                             <Contacts source={EmailIcon} name="Email Address" contacts="Info@theresurrectedchurchng.org" />
                             <Contacts source={Whatsapp} name="Whatsapp" contacts="09139107522" />
                             <Contacts source={Location} name="Location" contacts="Lagos, Nigeria" />
                             <Contacts source={CallIcon} name="Phone Number" contacts="09139107522" />
                         </div>
 
-                        <form action="https://fabform.io/f/insert-form-id" method="POST" className="space-y-6 lg:space-y-10 md:space-y-6">
+                        <form action="https://fabform.io/f/insert-form-id" method="POST" className="space-y-6 lg:space-y-10 md:space-y-6 pb-6">
                             <Input label="Full Name" type="text" placeholder="Full Name" />
 
                             <Input label="Email" type="email" placeholder="Enter email address" />
@@ -56,9 +57,7 @@ const Contact = () => {
                                 <Button name="Send Message" className='text-sm'/>
                             </div> */}
 
-                            <div>
-                                <a href='/' className={`bg-[#01385F] text-sm px-14 py-3.5 text-white xl:px-10 lg:px-14 md:py-6 md:px-12 sm:px-10 sm:py-3 rounded-md`}>Send Message</a>
-                            </div>
+                           <Button name="Send Message" />
                         </form>
                     </div>
 
@@ -69,7 +68,7 @@ const Contact = () => {
             </section>
 
             <Footer className='xl:mt-[35rem] mt-[30rem]' />
-        </body>
+        </div>
 
     );
 };

@@ -1,7 +1,7 @@
 const Button = (props, { className }) => {
     return (
         <div>
-            <a href='/' className={`bg-[#01385F] px-14 py-3.5 text-white xl:px-16 lg:px-14 md:py-5 md:px-12 sm:px-10 sm:py-3 rounded-md ${className}`}>{props.name}</a>
+            <a href='/' className={`bg-[#01385F] text-center w-[8.5rem] block mx-auto py-5 md:mx-0 text-white rounded-md ${className}`}>{props.name}</a>
         </div>
     )
 }

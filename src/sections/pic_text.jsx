@@ -31,7 +31,7 @@ const PicText = () => {
                     </ul>
                 </div>
                 <div className='vision px-4 md:px-1.5 text-center'  id='vision_img'>
-                    <img src={vision} alt="rtc vision" className='max-w-full object-contain p-1' />
+                    <img src={vision} alt="rtc vision" className='max-w-full object-contain p-1 md:mx-0 sm:mx-auto' />
                 </div>
             </section>
 

@@ -17,7 +17,7 @@ const Live = () => {
         <main className=''>
             <Navbar />
             <Header src={HeaderImg} src2={HeaderImg2} />
-            <div className='flex flex-col items-center pb-72 md:pb-96 pt-8 xl:pt-10' >
+            <div className='flex flex-col items-center pb-72 md:pb-96 pt-4 xl:pt-10' >
                 <FormHeader header="STREAMING PLATFORMS" subHeader="" />
                 <p className='font-medium'>Kindly Select Your Preferred Option</p>
                 <div className='w-full flex flex-col justify-center items-center mt-12 md:mt-24 md:flex-row gap-8  md:flex-wrap' >

@@ -5,7 +5,7 @@ import '../assets/css/main.css'
 import logo from '../assets/images/TRC Official 3 1.png'
 
 // component
-// import Button from '../components/rtcBtn';
+import Button from '../components/rtcBtn';
 
 const Join = () => {
     return (
@@ -13,13 +13,15 @@ const Join = () => {
             <div className='w-[100%] px-4 space-y-4 xl:w-[50%] xl:space-y-8 lg:w-[50%] lg:space-y-4 md:order-2 md:w-[50%] md:px-1.5 md:py-0.5 md:space-y-2'>
                 <h1 className='text-xl font-bold xl:text-[28px] lg:text-[24px] md:text-lg text-center md:text-start' >Join Our Faith Family</h1>
 
-                <p className=' md:pt-0 font-medium leading-6 xl:leading-8  text-[15px] lg:text-'>
+                <p className=' md:pt-0 font-medium leading-6 text-center xl:leading-8  text-[15px] md:text-start'>
                     Become part of a vibrant community of believers who are passionate about growing in faith, serving others, and journeying together in Christ. Whether you're new to the faith or seeking deeper connections, you'll find friendship, support, and opportunities to serve in our welcoming community. Join us as we learn, worship, and share God's love with one another and the world around us."
                 </p>
 
-                <div className=''>
-                    <a href='/' className='bg-[#01385F] block w-[45%] mx-auto rounded-md text-sm px-5 py-4 text-center text-white xl:w-2/6  xl:px-6 xl:py-4 lg:w-[40%] lg:px-4 lg:py-5 md:w-[51%] md:mt-3.5 md:mx-0 md:py-5 md:px-6 sm:px-10 sm:py-2.5'>Join Community</a>
-                </div>
+                {/* <div className=''>
+                    <a href='/' className='bg-[#01385F] block w-[45%] mx-auto rounded-md text-sm px-5 py-4 text-center text-white xl:w-2/6  xl:px-6 xl:py-4 lg:w-[40%] lg:px-4 lg:py-5 md:w-[51%] md:mt-3.5 md:mx-0 md:py-5 md:px-6 sm:px-10 sm:py-2.5'></a>
+                </div> */}
+
+                <Button name="Join Community"/>
             </div>
 
             <div className='joinSectionImg rounded-lg w-[90%] mx-auto md:w-1/2 md:mx-0 md:order-2 px-4 md:px-1'>
