@@ -2,6 +2,8 @@ import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import arrow from '../assets/images/gridicons_dropdown.png'
 
+import {Link} from 'react-router-dom';
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -10,9 +12,9 @@ export default function Dropdown() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md text-base font-medium text-black">
-          E-Church
-          <img src={arrow} alt='logo' className='object-cover inline ps-0.5' />
+        <Menu.Button className="flex w-full justify-center item-center gap-x-1.5 rounded-md text-base font-medium text-black">
+          <span>E-Church</span>
+          <img src={arrow} alt='logo' className='object- ps-0.5' />
         </Menu.Button>
       </div>
 
@@ -29,41 +31,41 @@ export default function Dropdown() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/abot"
+                <Link
+                  to='/member'
                   className={classNames(
                     active ? 'bg-gray-100 text-black' : 'text-black ',
                     'block px-6 py-2 text-sm font-medium'
                   )}
                 >
                   Membership Registration
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/abot"
+                <Link
+                  to='/prayer'
                   className={classNames(
                     active ? 'bg-gray-100 text-black' : 'text-black ',
                     'block px-6 py-2 text-sm font-medium'
                   )}
                 >
                   Prayer Request
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/abot"
+                <Link
+                  to='/testimony'
                   className={classNames(
                     active ? 'bg-gray-100 text-black' : 'text-black ',
                     'block px-6 py-2 text-sm font-medium'
                   )}
                 >
                   Testimony
-                </a>
+                </Link>
               )}
             </Menu.Item>
             {/* <form method="POST" action="/abot">

@@ -22,7 +22,7 @@ const Join = () => {
                 </div>
             </div>
 
-            <div className='joinSectionImg rounded-lg w-[90%]  mx-auto md:w-1/2 md:mx-0 md:order-2 px-4 md:px-1'>
+            <div className='joinSectionImg rounded-lg w-[90%] mx-auto md:w-1/2 md:mx-0 md:order-2 px-4 md:px-1'>
                 <div className='flex flex-col w-[100%] py-24 h-full items-center justify-center align-middle md:py-0'>
                     <div className=' w-1/3 md:w-[40%] '>
                         <a href="/"> <img src={logo} alt='logo' className='object-contain w-full mx-auto lg:mt-[-20px]' /></a>

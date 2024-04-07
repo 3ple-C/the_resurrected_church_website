@@ -1,67 +1,158 @@
-
-/* header1 & welcome component */
-.mobile{
-    display: none;
+/* header1 & welcome section */
+.mobile {
+  display: none;
 }
 
-.welcome{
-    padding-top: 18px;
+.welcome {
+  padding-top: 18px;
 }
 
-/* join component */
+/* join section */
 
-.joinSectionImg{
-    background: linear-gradient(45deg, #01385FCC,#01385FCC
-    ), url(../images/hands-young-people-different-races-joined-together-52844507-transformed.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.joinSectionImg {
+  background: linear-gradient(45deg, #01385fcc, #01385fcc),
+    url(../images/hands-young-people-different-races-joined-together-52844507-transformed.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/* header2 component */
-.header2{
-    background: linear-gradient(180deg, rgba(1, 56, 95, 0.39) 0%, rgba(1, 56, 95, 0.61) 100%), url(../images/Rectangle\ 6637.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+/* header2 section */
+.header2 {
+  background: linear-gradient(
+      180deg,
+      rgba(1, 56, 95, 0.39) 0%,
+      rgba(1, 56, 95, 0.61) 100%
+    ),
+    url(../images/Rectangle\ 6637.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /* footer section */
+/* #contacts{
+  z-index: -1;
+} */
+#contact {
+  z-index: 1;
+}
+
+#contacts2{
+  display: none;
+}
+#border-control {
+  background-color: #01385f;
+  top: -30px;
+  content: "";
+  /* display: block; */
+  height: 300px;
+  left: 0;
+  position: absolute;
+  transform: translate(-18%, 0);
+  width: 300px;
+  z-index: -1;
+}
 
 @import url("https://fonts.cdnfonts.com/css/leckerli-one");
 
 .logo_text {
   font-family: "Leckerli One", sans-serif;
 }
+@media screen and (min-width: 1367px) {
+  section {
+    width: 100%;
+    padding-left: 180px !important;
+    padding-right: 180px !important;
+  }
+  /* pict_text section */
+  #mission_img,
+  #vision_img {
+    width: 50%;
+  }
+  #mission_img > img,
+  #vision_img > img {
+    width: 100%;
+  }
+  #mission_text,
+  #vision_text {
+    width: 50%;
+  }
 
-@media only screen and (min-width:280px) and (max-width:540px) {
-    /* header1 & welcome component */
-    .desktop{
-        display: none;
-    }
+  /* messages section */
+  #messages {
+    gap: 24px;
+  }
 
-    .mobile{
-        display: block;
-    }
+  /* message component */
+  #message > div > .message {
+    width: 100%;
+  }
+  #message > div > .message > img {
+    width: 100%;
+  }
+  .desktop {
+    width: 100%;
+  }
 
-    /* join component */
+  /* welcome section */
+  #welcome_img {
+    width: 50%;
+  }
+  #welcome_img > img {
+    width: 100%;
+  }
+  #welcome_text {
+    width: 50%;
+  }
 
-    .joinSection>div>div>a{
-        margin: 20px auto 0px;
-    }
+  /* join section */
+  .joinSectionImg {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+}
 
-  /* connect component mobile */
+@media only screen and (min-width: 280px) and (max-width: 540px) {
+  h1 {
+    font-size: 28px !important;
+  }
+  /* header1 & welcome section */
+  .desktop {
+    display: none;
+  }
 
-  .connect_img>img {
+  .mobile {
+    display: block;
+  }
+
+  #contacts, #border-control {
+   display: none;
+  }
+
+  #contacts2{
+
+    gap: 20px;
+    display: flex;
+  }
+
+  /* join section */
+
+  .joinSection > div > div > a {
+    margin: 20px auto 0px;
+  }
+
+  /* connect section mobile */
+
+  .connect_img > img {
     width: 12% !important;
   }
 
-  /* footer component mobile */
+  /* footer section mobile */
   .subscribe {
     width: 90%;
   }
 
-  ul>li>a,
-  section>div>p,
-  footer>div>p {
+  ul > li > a,
+  section > div > p,
+  footer > div > p {
     font-size: 14px;
     line-height: 20px;
   }

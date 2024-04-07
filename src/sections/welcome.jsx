@@ -15,17 +15,17 @@ const Welcome = () => {
 
     return (
         <section className='w-full flex flex-col welcome gap-10 mt-14 xl:mt-30 lg:mt-28 md:mt-24 md:flex-row md:gap-6 md:px-14 xl:px-20 xl:gap-10 '>
-            <div className='order-2  px-4 md:px-1'>
-                <div className='desktop'>
-                    <img src={welcomeImg} alt="rtc_messages" className='object-contain ' />
+            
+                <div className='desktop' id='welcome_img'>
+                    <img src={welcomeImg} alt="rtc_messages" className='object- ' />
                 </div>
 
-                <div className='mobile'>
+                <div className='mobile order-1  px-4 md:px-1'>
                     <img src={welcomeImg2} alt="rtc_messages" className='object-cover w-full' />
                 </div>
-            </div>
+          
 
-            <div className=' px-4  space-y-3 xl:w-[52%] xl:space-y-3 lg:w-[80%] lg:space-x-2 md:w-[100%] md:px-4 md:space-y-2  md:order-2'>
+            <div className=' px-4  space-y-3 xl:w-[52%] xl:space-y-3 lg:w-[80%] lg:space-x-2 md:w-[100%] md:px-4 md:space-y-2  md:order-2' id='welcome_text'>
                 <HeadText title={headText} subtitle={subHeadText} />
                 <Text content={text} />
             </div>

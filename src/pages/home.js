@@ -1,5 +1,8 @@
 import '../assets/css/main.css';
 
+import HeaderImg from '../assets/images/Frame 1567.png';
+import HeaderImg2 from '../assets/images/Frame 1659.png';
+
 // components
 import Nav from '../sections/nav.jsx';
 import Header from '../sections/header1.jsx';
@@ -17,7 +20,7 @@ function Home() {
     return (
         <div>
             <Nav />
-            <Header />
+            <Header src={HeaderImg} src2={HeaderImg2}/>
             <Welcome /> 
             <PicText />
             <Connect />

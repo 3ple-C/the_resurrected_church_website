@@ -10,7 +10,7 @@ import labors from '../assets/images/Frame 1592 (1).png'
 
 
 // components
-import Message from '../components/message';
+import {Message} from '../components/message';
 
 
 const Messages = () => {
@@ -21,7 +21,7 @@ const Messages = () => {
                 <p className='font-medium text-xs px-4 sm:text-base'>Explore our collection of inspirational sermons and messages that offer spiritual guidance and upliftment. Listen online at your convenience.</p>
             </div>
 
-            <div className=' messages w-[%] mx-auto flex flex-wrap justify-center px-2 gap-3'>
+            <div className=' messages w-[%] mx-auto flex flex-wrap justify-center px-2 gap-3' id='messages'>
                 <Message src={delivered} name="Delivered" />
                 <Message src={faithWarfare} name="Faith Warfare"/>
                 <Message src={bloodline} name="The Bloodline Blessings"/>

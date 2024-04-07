@@ -6,9 +6,9 @@ import logo from '../assets/images/TRC Official 3 1.png';
 import DropdownFooter from '../components/dropdownFooter';
 
 
-const Footer = () => {
+const Footer = ({className}) => {
     return (
-        <footer className='relative mt-60 '>
+        <footer className={`relative mt-60 ${className}`}>
 
             {/* <div>hello</div> */}
             <section className='rounded-md absolute left-0 right-0 my-0 mx-auto bg-[#01385F] w-[90%] lg:w-[70%] md:w-[72%] text-white text-center pt-14 pb-28 space-y-[60px] top-[-33%] lg:space-y-[90px] md:space-y-[70px] md:pt-20 md:pb-32 lg:top-[-40%] md:top-[-42%] sm:top-[-32%]'>
