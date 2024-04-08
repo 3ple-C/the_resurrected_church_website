@@ -18,7 +18,7 @@ const Membership = () => {
         <body>
             <Navbar />
             <Header1 src={HeaderImg} src2={HeaderImg2} />
-            <div class="xl:w-[60%] md:w-[75%] mx-auto p-8 pt-8 form-container space-y-5 lg:space-y-10 md:space-y-7">
+            <div class="xl:w-[60%] md:w-[75%] mx-auto px-6 pt-5 form-container space-y-5 lg:space-y-10 md:space-y-7">
                 <FormHeader header="E-Membership Form" subHeader="Become a member of The Resurrected Church Family" />
 
                 <form action="https://fabform.io/f/insert-form-id" method="POST" className="space-y-6 lg:space-y-10 md:space-y-6">

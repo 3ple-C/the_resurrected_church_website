@@ -9,7 +9,6 @@ import HeaderImg2 from '../assets/images/Frame 1699 (4).png'
 import Navbar from '../sections/nav';
 import Header from '../sections/header1';
 import { LiveBox } from "../components/message";
-import FormHeader from '../components/formHeader';
 import Footer from '../sections/footer';
 
 const Live = () => {
@@ -18,7 +17,7 @@ const Live = () => {
             <Navbar />
             <Header src={HeaderImg} src2={HeaderImg2} />
             <div className='flex flex-col items-center pb-72 md:pb-96 pt-4 xl:pt-10' >
-                <FormHeader header="STREAMING PLATFORMS" subHeader="" />
+                <h4 className="text-[24px] md:text-[32px] leading-8 text-center md:text-center">STREAMING PLATFORMS</h4>
                 <p className='font-medium'>Kindly Select Your Preferred Option</p>
                 <div className='w-full flex flex-col justify-center items-center mt-12 md:mt-24 md:flex-row gap-8  md:flex-wrap' >
                     <LiveBox name="Join Us" source={instagram} social="Instagram" alt="RTC media links" />

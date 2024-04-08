@@ -32,6 +32,7 @@ nav > ul > li > .navLink {
   justify-content: space-between;
   align-items: center;
   /* gap: 40px; */
+  /* z-index: 1; */
 }
 
 .hamburger {
@@ -99,7 +100,7 @@ nav > ul > li > .navLink {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    top: -100%;
+    top: -120%;
     left: 0;
     text-align: start;
     width: 100%;

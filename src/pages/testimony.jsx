@@ -8,16 +8,19 @@ import { Input } from '../components/input';
 import { Textarea } from "../components/input";
 import Navbar from "../sections/nav";
 import Header1 from "../sections/header1";
+import FormHeader from '../components/formHeader';
 import Footer from '../sections/footer';
 
 const Testimony = () => {
-   
+
 
     return (
         <body>
             <Navbar />
-            <Header1 src={HeaderImg} src2={HeaderImg2}/>
-            <div class="xl:w-[60%] md:w-[75%] mx-auto p-8 pt-32 form-container space-y-5 lg:space-y-10 md:space-y-7">
+            <Header1 src={HeaderImg} src2={HeaderImg2} />
+            <div class="xl:w-[60%] md:w-[75%] mx-auto p-4 pt-4 form-container space-y-5 lg:space-y-10 md:space-y-7">
+                <FormHeader header="Testimony" subHeader="Share your testimony" />
+
                 <form action="https://fabform.io/f/insert-form-id" method="POST" className="space-y-6 lg:space-y-10 md:space-y-6">
                     <Input label="Full Name" type="text" placeholder="+23480000..." />
 
@@ -36,7 +39,7 @@ const Testimony = () => {
                     </div>
                 </form>
             </div>
-            <Footer className='xl:mt-[35rem] mt-[30rem]'/>
+            <Footer className='xl:mt-[35rem] mt-[30rem]' />
         </body>
 
     );

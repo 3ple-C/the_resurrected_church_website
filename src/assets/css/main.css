@@ -35,7 +35,7 @@
   z-index: 1;
 }
 
-#contacts2{
+#contacts2 {
   display: none;
 }
 #border-control {
@@ -56,6 +56,7 @@
 .logo_text {
   font-family: "Leckerli One", sans-serif;
 }
+
 @media screen and (min-width: 1367px) {
   section {
     width: 100%;
@@ -123,16 +124,19 @@
     display: block;
   }
 
-  #contacts, #border-control {
-   display: none;
+  #contacts,
+  #border-control {
+    display: none;
   }
 
-  #contacts2{
-
+  #contacts2 {
     gap: 20px;
     display: flex;
   }
-
+/* 
+  section > #connect_img {
+    width: 12% !important;
+  } */
   /* join section */
 
   .joinSection > div > div > a {
@@ -155,5 +159,15 @@
   footer > div > p {
     font-size: 14px;
     line-height: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #contacts,
+  #border-control {
+    display: none;
+  }
+  #contact {
+    display: ;
   }
 }

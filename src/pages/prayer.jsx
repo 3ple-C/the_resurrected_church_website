@@ -18,7 +18,7 @@ const Prayer = () => {
         <body>
             <Navbar />
             <Header1 src={HeaderImg} src2={HeaderImg2}/>
-            <div class="xl:w-[60%] md:w-[75%] mx-auto p-8 form-container space-y-5 lg:space-y-10 md:space-y-7">
+            <div class="xl:w-[60%] md:w-[75%] mx-auto px-6 pt-4 form-container space-y-5 lg:space-y-10 md:space-y-7">
 
                 <FormHeader header="Submit your Prayer Request" subHeader="Release your faith with us."/>
                 <form action="https://fabform.io/f/insert-form-id" method="POST" className="space-y-6 lg:space-y-10 md:space-y-6">

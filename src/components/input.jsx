@@ -13,7 +13,7 @@ const Input = (props) => {
 
 const Textarea = (props) => {
     return (
-        <div class="mb-6">
+        <div class="mb-6 space-y-4">
             <label for="message" class="block text-black text-sm leading-6 lg:text-xl lg:leading-5 md:text-lg md:leading-5 font-bold mb-2">{props.message}<Star /></label>
             <textarea id="message" name="message" rows="14" placeholder={props.placeholder} required
                 class="w-full form-textarea border-[#666666] px-3 py-5 border rounded focus:outline-none mb-3 md:mb-3 "></textarea>
@@ -23,7 +23,7 @@ const Textarea = (props) => {
 
 const Select = (props) => {
     return (
-        <div class="mb-6">
+        <div class="mb-6 space-y-4">
             <label for="message" class="block text-black text-sm leading-6 lg:text-xl lg:leading-5 md:text-lg md:leading-5 font-bold mb-2">{props.message}<Star /></label>
             <select id="message" name="message" rows="14" placeholder="How can we help you?" required
                 class="w-full form-select border-[#666666] px-3 py-5 border rounded focus:outline-none mb-3 md:mb-3 ">
