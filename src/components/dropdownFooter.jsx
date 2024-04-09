@@ -2,6 +2,9 @@ import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import arrow from '../assets/images/gridicons_dropdown (2).png'
 
+import {Link} from 'react-router-dom';
+
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -29,58 +32,43 @@ export default function DropdownFooter() {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/abot"
+                <Link
+                  to='/member'
                   className={classNames(
                     active ? 'text-decoration-line decoration-white text-white' : 'text-white ',
                     'block px-6 py-2 text-sm font-medium'
                   )}
                 >
                   Membership Registration
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/abot"
+                <Link
+                to='/prayer'
                   className={classNames(
                     active ? 'text-underline text-white' : 'text-white ',
                     'block px-6 py-2 text-sm font-medium'
                   )}
                 >
                   Prayer Request
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/abot"
+                <Link
+                to='/testimony'
                   className={classNames(
                     active ? 'text-underline text-white' : 'text-white ',
                     'block px-6 py-2 text-sm font-medium'
                   )}
                 >
                   Testimony
-                </a>
+                </Link>
               )}
             </Menu.Item>
-            {/* <form method="POST" action="/abot">
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    type="submit"
-                    className={classNames(
-                      active ? 'text-underline text-white' : 'text-white ',
-                      'block w-full px-4 py-2 text-left text-sm font-medium'
-                    )}
-                  >
-                    Sign out
-                  </button>
-                )}
-              </Menu.Item>
-            </form> */}
           </div>
         </Menu.Items>
       </Transition>

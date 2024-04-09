@@ -7,7 +7,7 @@ const Contacts = (props) => {
                 </div>
                 <div className='text-base flex flex-col items-start gap-1'>
                     <p className="font-extrabold">{props.name}</p>
-                    <p className='text-base md:text-base'>{props.contacts}</p>
+                    <p className='text-base md:text-base text'>{props.contacts}</p>
                 </div>
             </div>
         </a>

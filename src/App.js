@@ -7,6 +7,8 @@ import Prayer from './pages/prayer';
 import Testimony from './pages/testimony';
 import Live from  './pages/live';
 import Contact from './pages/contact';
+import './App.css';
+
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Route path="/testimony" element={ <Testimony /> } />
       <Route path="/live" element={ <Live /> } />
       <Route path="/contact" element={ <Contact /> } />
+  
+      
 
     </Routes>
   );

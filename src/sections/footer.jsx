@@ -5,6 +5,8 @@ import logo from '../assets/images/TRC Official 3 1.png';
 // components
 import DropdownFooter from '../components/dropdownFooter';
 
+import { Link } from 'react-router-dom';
+
 
 const Footer = ({className}) => {
     return (
@@ -34,10 +36,10 @@ const Footer = ({className}) => {
 
                     <div className=' md:block p-1'>
                         <ul className='flex flex-col gap-5 lg:pe-10 md:pe-5  md:flex-row md:items-center md:gap-6 xl:gap-10 lg:gap-7'>
-                            <li><a href="/" className='text-white'>Home</a></li>
+                            <li><Link to="/" className='text-white'>Home</Link></li>
                             <li className='text-white'><DropdownFooter /></li>
-                            <li><a href='/' className='text-white'>Live</a></li>
-                            <li><a href='/' className='text-white'>Contact us</a></li>
+                            <li><Link to='/live' className='text-white'>Live</Link></li>
+                            <li><Link to='/contact' className='text-white'>Contact us</Link></li>
                         </ul>
                     </div>
 

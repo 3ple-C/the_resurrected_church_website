@@ -2,10 +2,10 @@ import facebook from '../assets/images/simple-icons_facebooklive.png';
 import instagram from '../assets/images/Frame 1584.png';
 import telegram from '../assets/images/Frame 1585.png';
 import youtube from '../assets/images/logos_youtube.png';
-
+// css
 import '../assets/css/main.css';
 
-// import '../assets/css/connect.css';
+import Slider2 from '../components/slider2';
 
 
 const Connect = () => {
@@ -16,12 +16,14 @@ const Connect = () => {
                 <p className='font-medium text-base px-4 sm:text-base'>Stay connected across platforms. Follow us for updates, events, and inspiration on all our social media channels."</p>
             </div>
 
-            <div className='lg:w-4/6 md:w-5/6 mx-auto flex justify-between flex-wrap items-center' id='connect_img'>
+            <div className='lg:w-4/6 md:w-5/6 mx-auto hidden justify-between flex-wrap items-center md:flex' id='connect_img'>
                 <img src={youtube} alt="rtc_youtube" />
                 <img src={instagram} alt="rtc_instagram" />
                 <img src={telegram} alt="rtc_telegram" />
                 <img src={facebook} alt="rtc_facebook" />
             </div>
+
+            <Slider2 />
         </section>
     );
 };

@@ -3,18 +3,22 @@ import image2 from '../assets/images/Frame 1612.png';
 import image3 from '../assets/images/Frame 1613.png';
 
 // components
-// import Text from '../components/textcontainer';
+import Slider from '../components/slider';
 import Button from '../components/rtcBtn';
 import Image from '../components/rtcImg';
 
 const Service = () => {
-    
+
     return (
         <section className='w-full flex flex-col pt-7 gap-14 md:flex-row md:gap-2 md:px-20 md:pt-24 xl:pt-32 lg:pt-28 '>
-            <div className='order-1  flex gap-3'>
+            <div className='order-1 hidden md:flex gap-3'>
                 <Image src={image1} />
                 <Image src={image2} />
                 <Image src={image3} />
+            </div>
+
+            <div className='order-1'>
+                <Slider />
             </div>
 
             <div className='md:order-2 px-4 pb-6 space-y-3 xl:w-[52%] xl:space-y-6 lg:w-[80%] md:w-[100%] md:px-3 md:space-y-1.5 md:pb-0 '>
@@ -26,7 +30,7 @@ const Service = () => {
                     <Button name="Give" />
                 </div>
             </div>
-    
+
         </section>
     );
 };

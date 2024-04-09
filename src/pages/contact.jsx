@@ -34,7 +34,7 @@ const Contact = () => {
                     <Contacts source={CallIcon} name="Phone Number" contacts="09139107522" />
                 </div>
 
-                <div className='lg:relative xl:w-[60%] md:w-[75%] md:mt-[1.85rem] px-6 pt-5 mx-auto' >
+                <div className='lg:relative xl:w-[60%] md:w-[75%] md:mt-[1.85rem] px-4 pt-5 mx-auto' >
                     <div id='border-control'></div>
 
                     <div className="bg-white form-container space-y-7 lg:space-y-10 md:space-y-7 lg:shadow-lg" id='contact' >

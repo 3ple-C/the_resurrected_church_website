@@ -29,6 +29,7 @@ function Home() {
             <Service />
             <Join />
             <Footer />
+            
         </div>
     );
 }
