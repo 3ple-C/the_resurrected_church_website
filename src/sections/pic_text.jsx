@@ -8,7 +8,7 @@ const PicText = () => {
                 <div className='px-4 space-y-3 xl:w-[52%] xl:space-y-4 lg:w-[80%] md:w-[100%] md:px-1.5 md:py-0.5 md:space-y-2' id='vision_text'>
                     <h3 className='text-base font-bold text-[#01385F]'>What we stand for</h3>
                     <h1 className='xl:text-4xl font-semibold'>Our Vision</h1>
-                    <ul className='space-y- font-medium leading-8  text-[16px]'>
+                    <ul className='space-y- text-justify font-medium leading-8  text-[16px]'>
                         <li className='flex gap-2'>
                             <span className='text-2xl'>•⁠  </span>⁠-To spread the message of the glorious gospel of Jesus all over the world
                         </li>
@@ -43,7 +43,7 @@ const PicText = () => {
                 <div className='w-[100%] px-4 space-y-3 xl:w-[50%] xl:space-y-4 lg:w-[80%] md:order-2  md:w-[100%] md:px-1.5 md:py-0.5 md:space-y-2' id='mission_text'>
                     <h3 className='text-base font-bold text-[#01385F]'>Our call and Goal</h3>
                     <h1 className='xl:text-4xl font-semibold'>Our Mission</h1>
-                    <ul className='space-y- pt-2 md:pt-0 font-medium leading-8  text-[16px] lg:text-'>
+                    <ul className='text-justify pt-2 md:pt-0 font-medium leading-8  text-[16px] lg:text-'>
                         <li className='flex gap-2'>
                             <span className='text-2xl'>•⁠  </span>⁠Use every platform possible to spread the message of the Gospel.
                         </li>

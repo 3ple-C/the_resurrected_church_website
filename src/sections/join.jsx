@@ -15,7 +15,7 @@ const Join = () => {
             <div className='w-[100%] px-4 space-y-4 xl:w-[50%] xl:space-y-8 lg:w-[50%] lg:space-y-4 md:order-2 md:w-[50%] md:px-1.5 md:py-0.5 md:space-y-4'>
                 <h1 className='text-xl font-bold xl:text-[28px] lg:text-[24px] md:text-lg text-center md:text-start' >Join Our Faith Family</h1>
 
-                <p className=' md:pt-0 font-medium leading-6 text-center xl:leading-8  text-[16px] md:text-start'>
+                <p className=' md:pt-0 font-medium leading-6 text-center xl:leading-8  text-[16px] md:text-justify'>
                     Become part of a vibrant community of believers who are passionate about growing in faith, serving others, and journeying together in Christ. Whether you're new to the faith or seeking deeper connections, you'll find friendship, support, and opportunities to serve in our welcoming community. Join us as we learn, worship, and share God's love with one another and the world around us."
                 </p> <br />
 
