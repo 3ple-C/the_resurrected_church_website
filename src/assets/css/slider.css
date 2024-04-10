@@ -99,11 +99,13 @@ height: 100%;
 }
 
 #slider2{
-  /* width: 60%; */
+  /* width: 40%; */
 }
 
 #sliderImg{
-  width: 60%;
+  width: 40%;
+  padding: 10px 30px;
+
 }
 
 /* Buttons */

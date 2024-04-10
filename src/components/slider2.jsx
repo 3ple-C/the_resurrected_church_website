@@ -31,14 +31,14 @@ function Slider2() {
     <div className="slideshow md:hidden">
       <div
         className="slideshowSlider mb-30 pb-2"
-        style={{ transform: `translate3d(${-index * 50}%, 0, 0)` }}
+        style={{ transform: `translate3d(${-index * 30}%, 0, 0)` }}
       >
         {colors.map((color,idx) => (
           <div
             className="slide justify-center" id='sliderImg'
             key={color}
             // style={{ backgroundImage }}
-          ><img src={color} alt="" className='w-[50%]' id='slider2'/></div>
+          ><img src={color} alt="" className='w-[82px]' id='slider2'/></div>
         ))}
       </div>
 
