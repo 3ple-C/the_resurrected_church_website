@@ -40,13 +40,13 @@
 }
 #border-control {
   background-color: #01385f;
-  top: -30px;
+  top: -16px;
   content: "";
   /* display: block; */
   height: 300px;
   left: 0;
   position: absolute;
-  transform: translate(-18%, 0);
+  transform: translate(-10%, 0);
   width: 300px;
   z-index: -1;
 }
@@ -167,7 +167,7 @@
   #border-control {
     display: none;
   }
-  #contact {
+  /* #contact {
     display: ;
-  }
+  } */
 }
