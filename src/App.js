@@ -19,9 +19,6 @@ function App() {
       <Route path="/testimony" element={ <Testimony /> } />
       <Route path="/live" element={ <Live /> } />
       <Route path="/contact" element={ <Contact /> } />
-  
-      
-
     </Routes>
   );
 }
