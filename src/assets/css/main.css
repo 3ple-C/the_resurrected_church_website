@@ -18,12 +18,14 @@
 
 /* header2 section */
 .header2 {
-  background: radial-gradient(58.94% 138.79% at 32.53% 35.49%, #0B0B0B 0%, rgba(11, 11, 11, 0.48) 100%), url(../images_new/Pexels\ Photo\ by\ Abuti\ Engidashet.png) ;
+  background: linear-gradient(
+      180deg,
+      rgba(1, 56, 95, 0.39) 0%,
+      rgba(1, 56, 95, 0.61) 100%
+    ),
+    url(../images/Rectangle\ 6637.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  position: relative;
-  z-index: -1;
 }
 /* footer section */
 /* #contacts{

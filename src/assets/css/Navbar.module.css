@@ -17,18 +17,12 @@ nav > ul > li > .navLink {
 
 /* navbar */
 .navbar {
-  top: 0;
-  background: radial-gradient(
-      58.94% 138.79% at 32.53% 35.49%,
-      #0b0b0b 0%,
-      rgba(11, 11, 11, 0.48) 100%
-    ),
-    url(../images_new/Pexels\ Photo\ by\ Abuti\ Engidashet.png);
-
+    top: 0;
+  background-color: white;
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
-  /* gap: 40px; */
+  gap: 40px;
   min-height: 70px;
 }
 
@@ -69,7 +63,7 @@ nav > ul > li > .navLink {
 
   .bar {
     /* position: relative; */
-    background-color: #F8931F;
+    background-color: #01385f;
     width: 20px;
     height: 4px;
     display: block;
